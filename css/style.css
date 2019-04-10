@@ -1,0 +1,963 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width: 1024px){
+    .overall-box{
+        width: 100%;
+        background-color: #f2f2f2
+        ;
+    }
+    .overall-box-container{
+        width: 80%;
+        margin:0 auto;
+        border:1px solid #ccc!important;
+    }
+    /* <!--block head 1--> */
+    .block-header-one{
+        width: 100%;
+        height: 3em;
+        margin: 0 0em;
+        position: fixed;
+        z-index: 10;
+        background: rgb(230, 228, 228);
+    }
+    
+    .menu-icon-social ul li {
+        list-style-type: none;
+        color: white;
+        float: left;   
+        text-align: center;
+    }
+    .menu-icon-social ul li img{
+        width: 20px;
+        height:20px;
+        padding:0 0.7em 0.5em 0;
+    }
+    
+    .menu-icon-social ul li img:hover{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .menu-icon-social ul li.se{
+        float: right;   
+    }
+    
+    .icon-search img{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+    /* <!--block head 1--> */
+    /* <!--block head 2--> */
+    
+    .block-header-three{
+        background: url("../images/model1.png") no-repeat;
+        height: 50em;
+    }
+    .block-header-title{
+        margin: 3em 0;
+    }
+    .block-header-title h2{
+        font-size: 40px;
+        text-align:center;
+        font-family: "my-font-bold";
+    }
+    .block-header-title p{
+        text-align: center;
+        font-family: "my-font-regular";
+    ;}
+    .block-header-title span{
+        padding: 0.3em 0.5em;
+        background: black;
+        color: white;
+    }
+    /* <!--block head 2--> */
+    /* <!--block head 3--> */
+    .block-header-three{
+        position: relative;    
+    }
+    .block-header-text {
+        position: absolute;
+        color: white;
+        padding: 21% 3%;
+    }
+    .block-header-text p:nth-child(1){
+        font-size: 2em;
+        font-family: "my-font-regular";
+    }
+    .block-header-text h1:nth-child(2){
+        font-size: 3em;
+        font-family: "my-font-bold";
+    
+    }
+    .button-subcribe{
+        padding: 1em 1em;
+        background-color: white;
+        color: black;
+        width: 5em;
+        opacity: 0.5;
+    }
+    .button-subcribe:hover{
+        padding: 1em 1em;
+        background-color: white;
+        color: black;
+        width: 5em;
+        opacity: 01;
+    }
+    /* <!--block head 3--> */
+    /*start body*/
+    .block-body{
+        display: grid;
+        grid-template-columns: 65% 35%;
+        margin: 2em;
+    }
+    /*end body*/
+    /*<!--start block left 1-->*/
+    .text-one{
+        font-family: "my-font-bold";
+        font-size: 2em;
+    }
+    .text-two{
+        font-family: "my-font-regular";
+    }
+    .block-left-1{
+        height: auto;
+        width: 100%;  
+        background-color: white;
+        position: relative;
+    }
+    .title-text{
+        padding: 0.1em 0;
+        text-align: center;
+    }
+    
+    .block-left-1-image img{
+        width: 95%;
+        height:auto;
+        padding: 1.5em;
+    }
+    .body-text{
+        font-family: "my-font-regular";
+    }
+    .body-text p{
+        padding: 0em 1.5em;
+    }
+    .text-two span{
+        font-weight: 100;
+        font-family: "my-font-regular0";
+    }
+    .button-like{
+        float:left;
+        margin: 0 1.5em;
+        border: 1px solid #ccc;
+        padding: 0.7em 1.5em;
+    }
+    .button-like:hover{
+        background-color: #ccc;
+    }
+    .button-like img{
+        width: 1.2em;
+        height: 1.2em;
+        color: white;
+    }
+    .button-rep{
+        float: right;
+        margin: 0 2em;
+        background: black;
+    }
+    .button-rep span{
+        background: white;
+        color:black;
+        padding: 0 0.5  em;
+    }
+    .button-rep p{
+        color: white;
+        padding: 0 1.5em;
+    
+    }
+    .image-footer img{
+        width: 6em;
+        height: 6em;
+        margin: 0 1.5em;
+        float: left;
+    }
+    /*<!--end block left 1-->*/
+    /*<!--start block left 2-->*/
+    .block-left-2{
+        margin: 2em 0;
+        width:100%;
+        height: auto;
+    }
+    .block-left-2{
+        background-color: white;
+    }
+    .block-left-2-image img{
+        width: 95%;
+        height: auto;
+        padding: 1.5em;
+    }
+    /*<!--end block left 2-->*/
+    
+    /*<!--start block left 3-->*/
+    .block-left-3{
+        margin: 2em 0;
+        width:100%;
+        height: auto;
+    }
+    .block-left-3{
+        background-color: white;
+    }
+    .block-left-3-image img{
+        width: 95%;
+        height: auto;
+        padding: 1.5em;
+    }
+    /*<!--end block left 3-->*/
+    /*<!--start block right 1-->*/
+    
+    .block-right{
+        margin: 0 2em;
+    }
+    .block-right-1{
+        width: 100%;
+        background: black;
+    
+    }
+    .block-right-1-image img{
+        width: 100%;
+        height: auto;
+        opacity: 0.7;
+    }
+    .block-right-text{
+        margin: 1em;
+        color: white;
+    }
+    .block-right-text p:nth-child(2){
+        padding: 0 0 2em 0;
+    }
+    /*<!--end block right-1-->*/
+    /*<!--start block right 2-->*/
+    .block-right-2{
+        width: 100%;
+    }
+    .block-right-text-2{
+        font-family: "my-font-bold";
+        font-size: 1.7em;
+        background: black;
+        color: white;
+        padding: 0.4em 0.5em;
+    }
+    .block-right-2{
+        background-color: white;
+    }
+    .item-1{
+        margin: 0 1em;
+    }
+    .item-1 img{
+        height: 4.5em;
+        width: 4.5em;
+        float: left;
+    }
+    .item-1 h2{
+        padding: 0 4.5em;
+    }
+    .item-1 p{
+        padding: 0 7em;
+    }
+    /*<!--end block right 2-->*/
+    /*<!--star block right 3-->*/
+    .block-right-3{
+        width: 100%;
+    }
+    .block-right-3 p.text-one{
+        background-color: black;
+        color: white;
+        padding: 0.2em 0.5em;
+    }
+    .block-advertisement{
+        height: 10em;
+        background: white;
+        margin-top: 0;
+    }
+    
+    .block-advertisement p{
+        text-align: center;
+        padding: 4em 0;
+        background: #f1f1f1!important;
+        margin:0 1em 1em;
+    }
+    /*<!--end block right 3-->*/
+    /*<!--start block right 4-->*/
+    .block-right-4{
+        background: white;
+        position: relative;
+    }
+    .block-right-4 p{
+        background:black;
+        color: white;
+        padding:0.2em  0.5em;
+        font-family: "my-font-bold";
+        font-size: 2em;
+    }
+    
+    .block-right-4 ul li{
+        margin:0 0em;
+        background-color: white;
+        padding: 1em;
+        list-style-type: none;
+    }
+    .block-right-4 ul li a img{
+        height: 20px;
+        width: 20px;
+        transform: 1s;
+    }
+    .block-right-4 ul li{
+        float:left;
+    }
+    .block-right-4 ul li img:hover{
+        float:left;
+        width: 30px;
+        height: 30px;
+    }
+    /*<!--end block right 4-->*/
+}
+
+/*FOR MOBILE PHONE S*/
+@media only screen and (max-width: 320px){
+    .overall-box{
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+    .overall-box-container{
+        width: 80%;
+        margin:0 auto;
+        border:1px solid #ccc!important;
+    }
+    /* <!--block head 1--> */
+    .block-header-one{
+        width: 100%;
+        height: 2em;
+        margin: 0 0em;
+        background: rgb(230, 228, 228);
+    }
+    .menu-icon-social ul li {
+        list-style-type: none;
+        color: white;
+    }
+    .menu-icon-social ul li img{
+        width: 20px;
+        height:20px;
+        padding:0 0.7em;
+    }
+    .menu-icon-social ul li{
+        margin-top: 0.3em;
+        float: left;   
+    }
+    .menu-icon-social ul li img:hover{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .menu-icon-social ul li.se{
+        float: right;   
+    }
+    
+    .icon-search img{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+    /* <!--block head 1--> */
+    /* <!--block head 2--> */
+    
+    .block-header-three{
+        background: url("../images/model1.png") no-repeat;
+        height: 50em;
+    }
+    .block-header-title{
+        margin: 3em 0;
+    }
+    .block-header-title h2{
+        font-size: 40px;
+        text-align:center;
+        font-family: "my-font-bold";
+    }
+    .block-header-title p{
+        text-align: center;
+        font-family: "my-font-regular";
+    ;}
+    .block-header-title span{
+        padding: 0.3em 0.5em;
+        background: black;
+        color: white;
+    }
+    /* <!--block head 2--> */
+    /* <!--block head 3--> */
+    .block-header-three{
+        position: relative;    
+    }
+    .block-header-text {
+        position: absolute;
+        color: white;
+        padding: 21% 3%;
+    }
+    .block-header-text p:nth-child(1){
+        font-size: 2em;
+        font-family: "my-font-regular";
+    }
+    .block-header-text h1:nth-child(2){
+        font-size: 3em;
+        font-family: "my-font-bold";
+    
+    }
+    .button-subcribe{
+        padding: 1em 1em;
+        background-color: white;
+        color: black;
+        width: 5em;
+        opacity: 0.5;
+    }
+    .button-subcribe:hover{
+        padding: 1em 1em;
+        background-color: white;
+        color: black;
+        width: 5em;
+        opacity: 01;
+    }
+    /* <!--block head 3--> */
+    /*start body*/
+    .block-body{
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 2em;
+    }
+    /*end body*/
+    /*<!--start block left 1-->*/
+    .text-one{
+        font-family: "my-font-bold";
+        font-size: 2em;
+    }
+    .text-two{
+        font-family: "my-font-regular";
+    }
+    .block-left-1{
+        height: auto;
+        width: 100%;  
+        background-color: white;
+        position: relative;
+    }
+    .title-text{
+        padding: 0.1em 0;
+        text-align: center;
+    }
+    
+    .block-left-1-image img{
+        width: 95%;
+        height:auto;
+        padding: 1.5em;
+    }
+    .body-text{
+        font-family: "my-font-regular";
+    }
+    .body-text p{
+        padding: 0em 1.5em;
+    }
+    .text-two span{
+        font-weight: 100;
+        font-family: "my-font-regular";
+    }
+    .button-like{
+        float:left;
+        margin: 0 1.5em;
+        border: 1px solid #ccc;
+        padding: 0.7em 1.5em;
+    }
+    .button-like:hover{
+        background-color: #ccc;
+    }
+    .button-like img{
+        width: 1.2em;
+        height: 1.2em;
+        color: white;
+    }
+    .button-rep{
+        float: right;
+        margin: 0 2em;
+        background: black;
+    }
+    .button-rep span{
+        background: white;
+        color:black;
+        padding: 0 0.5  em;
+    }
+    .button-rep p{
+        color: white;
+        padding: 0 1.5em;
+    
+    }
+    .image-footer img{
+        width: 6em;
+        height: 6em;
+        margin: 0 1.5em;
+        float: left;
+    }
+    /*<!--end block left 1-->*/
+    /*<!--start block left 2-->*/
+    .block-left-2{
+        margin: 2em 0;
+        width:100%;
+        height: auto;
+    }
+    .block-left-2{
+        background-color: white;
+    }
+    .block-left-2-image img{
+        width: 95%;
+        height: auto;
+        padding: 1.5em;
+    }
+    /*<!--end block left 2-->*/
+    
+    /*<!--start block left 3-->*/
+    .block-left-3{
+        margin: 2em 0;
+        width:100%;
+        height: auto;
+    }
+    .block-left-3{
+        background-color: white;
+    }
+    .block-left-3-image img{
+        width: 95%;
+        height: auto;
+        padding: 1.5em;
+    }
+    /*<!--end block left 3-->*/
+    /*<!--start block right 1-->*/
+    
+    .block-right{
+        margin: 0 2em;
+    }
+    .block-right-1{
+        width: 100%;
+        background: black;
+    
+    }
+    .block-right-1-image img{
+        width: 100%;
+        height: auto;
+        opacity: 0.7;
+    }
+    .block-right-text{
+        margin: 1em;
+        color: white;
+    }
+    .block-right-text p:nth-child(2){
+        padding: 0 0 2em 0;
+    }
+    /*<!--end block right-1-->*/
+    /*<!--start block right 2-->*/
+    .block-right-2{
+        width: 100%;
+    }
+    .block-right-text-2{
+        font-family: "my-font-bold";
+        font-size: 1.7em;
+        background: black;
+        color: white;
+        padding: 0.4em 0.5em;
+    }
+    .block-right-2{
+        background-color: white;
+    }
+    .item-1{
+        margin: 0 1em;
+    }
+    .item-1 img{
+        height: 4.5em;
+        width: 4.5em;
+        float: left;
+    }
+    .item-1 h2{
+        padding: 0 4.5em;
+    }
+    .item-1 p{
+        padding: 0 7em;
+    }
+    /*<!--end block right 2-->*/
+    /*<!--star block right 3-->*/
+    .block-right-3{
+        width: 100%;
+    }
+    .block-right-3 p.text-one{
+        background-color: black;
+        color: white;
+        padding: 0.2em 0.5em;
+    }
+    .block-advertisement{
+        height: 10em;
+        background: white;
+        margin-top: 0;
+    }
+    
+    .block-advertisement p{
+        text-align: center;
+        padding: 4em 0;
+        background: #f1f1f1!important;
+        margin:0 1em 1em;
+    }
+    /*<!--end block right 3-->*/
+    /*<!--start block right 4-->*/
+    .block-right-4{
+        background: white;
+        position: relative;
+    }
+    .block-right-4 p{
+        background:black;
+        color: white;
+        padding:0.2em  0.5em;
+        font-family: "my-font-bold";
+        font-size: 2em;
+    }
+    
+    .block-right-4 ul li{
+        margin:0 0em;
+        background-color: white;
+        padding: 1em;
+        list-style-type: none;
+    }
+    .block-right-4 ul li a img{
+        height: 20px;
+        width: 20px;
+        transform: 1s;
+    }
+    .block-right-4 ul li{
+        float:left;
+    }
+    .block-right-4 ul li img:hover{
+        float:left;
+        width: 30px;
+        height: 30px;
+    }
+    /*<!--end block right 4-->*/
+ }
+ @media only screen and(min-width: 321px) and (max-width:425px){
+    .overall-box{
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+    .overall-box-container{
+        width: 80%;
+        margin:0 auto;
+        border:1px solid #ccc!important;
+    }
+    /* <!--block head 1--> */
+    .block-header-one{
+        width: 100%;
+        height: 2em;
+        margin: 0 0em;
+        background: rgb(230, 228, 228);
+    }
+    .menu-icon-social ul li {
+        list-style-type: none;
+        color: white;
+    }
+    .menu-icon-social ul li img{
+        width: 20px;
+        height:20px;
+        padding:0 0.7em;
+    }
+    .menu-icon-social ul li{
+        margin-top: 0.3em;
+        float: left;   
+    }
+    .menu-icon-social ul li img:hover{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .menu-icon-social ul li.se{
+        float: right;   
+    }
+    
+    .icon-search img{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+    /* <!--block head 1--> */
+    /* <!--block head 2--> */
+    
+    .block-header-three{
+        background: url("../images/model1.png") no-repeat;
+        height: 50em;
+    }
+    .block-header-title{
+        margin: 3em 0;
+    }
+    .block-header-title h2{
+        font-size: 40px;
+        text-align:center;
+        font-family: "my-font-bold";
+    }
+    .block-header-title p{
+        text-align: center;
+        font-family: "my-font-regular";
+    ;}
+    .block-header-title span{
+        padding: 0.3em 0.5em;
+        background: black;
+        color: white;
+    }
+    /* <!--block head 2--> */
+    /* <!--block head 3--> */
+    .block-header-three{
+        position: relative;    
+    }
+    .block-header-text {
+        position: absolute;
+        color: white;
+        padding: 21% 3%;
+    }
+    .block-header-text p:nth-child(1){
+        font-size: 2em;
+        font-family: "my-font-regular";
+    }
+    .block-header-text h1:nth-child(2){
+        font-size: 3em;
+        font-family: "my-font-bold";
+    
+    }
+    .button-subcribe{
+        padding: 1em 1em;
+        background-color: white;
+        color: black;
+        width: 5em;
+        opacity: 0.5;
+    }
+    .button-subcribe:hover{
+        padding: 1em 1em;
+        background-color: white;
+        color: black;
+        width: 5em;
+        opacity: 01;
+    }
+    /* <!--block head 3--> */
+    /*start body*/
+    .block-body{
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 2em;
+    }
+    /*end body*/
+    /*<!--start block left 1-->*/
+    .text-one{
+        font-family: "my-font-bold";
+        font-size: 2em;
+    }
+    .text-two{
+        font-family: "my-font-regular";
+    }
+    .block-left-1{
+        height: auto;
+        width: 100%;  
+        background-color: white;
+        position: relative;
+    }
+    .title-text{
+        padding: 0.1em 0;
+        text-align: center;
+    }
+    
+    .block-left-1-image img{
+        width: 95%;
+        height:auto;
+        padding: 1.5em;
+    }
+    .body-text{
+        font-family: "my-font-regular";
+    }
+    .body-text p{
+        padding: 0em 1.5em;
+    }
+    .text-two span{
+        font-weight: 100;
+        font-family: "my-font-regular";
+    }
+    .button-like{
+        float:left;
+        margin: 0 1.5em;
+        border: 1px solid #ccc;
+        padding: 0.7em 1.5em;
+    }
+    .button-like:hover{
+        background-color: #ccc;
+    }
+    .button-like img{
+        width: 1.2em;
+        height: 1.2em;
+        color: white;
+    }
+    .button-rep{
+        float: right;
+        margin: 0 2em;
+        background: black;
+    }
+    .button-rep span{
+        background: white;
+        color:black;
+        padding: 0 0.5  em;
+    }
+    .button-rep p{
+        color: white;
+        padding: 0 1.5em;
+    
+    }
+    .image-footer img{
+        width: 6em;
+        height: 6em;
+        margin: 0 1.5em;
+        float: left;
+    }
+    /*<!--end block left 1-->*/
+    /*<!--start block left 2-->*/
+    .block-left-2{
+        margin: 2em 0;
+        width:100%;
+        height: auto;
+    }
+    .block-left-2{
+        background-color: white;
+    }
+    .block-left-2-image img{
+        width: 95%;
+        height: auto;
+        padding: 1.5em;
+    }
+    /*<!--end block left 2-->*/
+    
+    /*<!--start block left 3-->*/
+    .block-left-3{
+        margin: 2em 0;
+        width:100%;
+        height: auto;
+    }
+    .block-left-3{
+        background-color: white;
+    }
+    .block-left-3-image img{
+        width: 95%;
+        height: auto;
+        padding: 1.5em;
+    }
+    /*<!--end block left 3-->*/
+    /*<!--start block right 1-->*/
+    
+    .block-right{
+        margin: 0 2em;
+    }
+    .block-right-1{
+        width: 100%;
+        background: black;
+    
+    }
+    .block-right-1-image img{
+        width: 100%;
+        height: auto;
+        opacity: 0.7;
+    }
+    .block-right-text{
+        margin: 1em;
+        color: white;
+    }
+    .block-right-text p:nth-child(2){
+        padding: 0 0 2em 0;
+    }
+    /*<!--end block right-1-->*/
+    /*<!--start block right 2-->*/
+    .block-right-2{
+        width: 100%;
+    }
+    .block-right-text-2{
+        font-family: "my-font-bold";
+        font-size: 1.7em;
+        background: black;
+        color: white;
+        padding: 0.4em 0.5em;
+    }
+    .block-right-2{
+        background-color: white;
+    }
+    .item-1{
+        margin: 0 1em;
+    }
+    .item-1 img{
+        height: 4.5em;
+        width: 4.5em;
+        float: left;
+    }
+    .item-1 h2{
+        padding: 0 4.5em;
+    }
+    .item-1 p{
+        padding: 0 7em;
+    }
+    /*<!--end block right 2-->*/
+    /*<!--star block right 3-->*/
+    .block-right-3{
+        width: 100%;
+    }
+    .block-right-3 p.text-one{
+        background-color: black;
+        color: white;
+        padding: 0.2em 0.5em;
+    }
+    .block-advertisement{
+        height: 10em;
+        background: white;
+        margin-top: 0;
+    }
+    
+    .block-advertisement p{
+        text-align: center;
+        padding: 4em 0;
+        background: #f1f1f1!important;
+        margin:0 1em 1em;
+    }
+    /*<!--end block right 3-->*/
+    /*<!--start block right 4-->*/
+    .block-right-4{
+        background: white;
+        position: relative;
+    }
+    .block-right-4 p{
+        background:black;
+        color: white;
+        padding:0.2em  0.5em;
+        font-family: "my-font-bold";
+        font-size: 2em;
+    }
+    
+    .block-right-4 ul li{
+        margin:0 0em;
+        background-color: white;
+        padding: 1em;
+        list-style-type: none;
+    }
+    .block-right-4 ul li a img{
+        height: 20px;
+        width: 20px;
+        transform: 1s;
+    }
+    .block-right-4 ul li{
+        float:left;
+    }
+    .block-right-4 ul li img:hover{
+        float:left;
+        width: 30px;
+        height: 30px;
+    }
+    /*<!--end block right 4-->*/
+ }

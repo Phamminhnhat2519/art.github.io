@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "my-font-bold";
+    src: url("fonts/Sniglet-ExtraBold.ttf");
+}
+@font-face{
+    font-family: "my-font-regular";
+    src: url("fonts/Sniglet-Regular.ttf");
+}
